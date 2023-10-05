@@ -19,14 +19,17 @@ This command results in an error because the argument isn't a directory. Since t
 ## ls
   1. 
 ![Image](ls1.png)
+
 prints the names of the files and folders inside the current working directory, which was home in this case.
 
   3. 
 ![Image](ls2.png)
+
 prints the names of the files and folders within the directory.
 
   5.
 ![Image](ls3.png)
+
 error message when the filename isn't directly inside the current directory but prints the name of the file when the file is inside the current directory. 
 
 ## cat

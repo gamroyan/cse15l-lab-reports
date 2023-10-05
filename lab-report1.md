@@ -18,6 +18,7 @@ This command produces no output but changes the current directory to lecture1. S
 
 This command 
 
+
 ## ls
   1. 
   2. 

@@ -46,3 +46,4 @@ Using a directory as the argument in a cat command gives an error since the "cat
   3.
 ![Image](cat3.png)
 
+If the file is within the current directory, running "cat filename" prints the contents of the file. Similarly, running cat with multiple filenames prints the contents of all files. There's no error in this output

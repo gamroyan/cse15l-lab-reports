@@ -36,8 +36,10 @@ The command prints an error message when the filename isn't directly inside the 
   1. 
 ![Image](cat1.png)
 
+
   2. 
 ![Image](cat2.png)
+
 
   3.
 ![Image](cat3.png)

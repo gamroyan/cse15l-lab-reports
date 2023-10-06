@@ -22,12 +22,12 @@ This command results in an error because the argument isn't a directory. Since t
 
 This command displays the names of the files and folders located within the current working directory, which, in this instance, was 'home.' Since no argument is provided, the command automatically prints the contents of the current directory. This output isn't an error.
 
-  3. 
+  2. 
 ![Image](ls2.png)
 
 This command prints the names of the files and folders within the directory indicated, which was lecture1 in this case. There's no error in this output.
 
-  5.
+  3.
 ![Image](ls3.png)
 
 The command prints an error message when the filename isn't directly inside the current directory but prints the name of the file when the file is inside the current directory. For example, (in the picture above) "ls Hello.java" throws an error when the current directory is home because the file Hello.java is inside the folder lecture1. However, when the current directory is lecture1, "ls Hello.java" runs without an error and prints the filename. 

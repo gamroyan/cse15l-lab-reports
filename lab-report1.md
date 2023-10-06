@@ -36,10 +36,12 @@ The command prints an error message when the filename isn't directly inside the 
   1. 
 ![Image](cat1.png)
 
+Since there are no arguments provided after cat, this command continuously asks the user for input and immediately prints the input out on the following line. Pressing ctrl + d would exit the mode. This output isn't an error.
 
   2. 
 ![Image](cat2.png)
 
+Using a directory as the argument in a cat command gives an error since the "cat" command is designed to concatenate and display the contents of files, not directories. If the directory exists, it states that it's a directory (shown above).
 
   3.
 ![Image](cat3.png)

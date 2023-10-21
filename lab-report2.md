@@ -1,5 +1,5 @@
 # Lab Report 2 - Servers and SSH Keys (Week 3)
-
+## Part 1:
 ### Code for StringServer:
 ![Image](lab2-code.png)
 
@@ -9,3 +9,7 @@ The main method is initially called, which calls the Handler class, containing t
 
 ![Image](lab2-ex2.png)
 In this request, the main method, handleRequest, and addMessage methods were all called. The relevant arguments were the url in handleRequest and message in addMessage. The index is a relevant field of the class, which was modified in this example and was incremented by 1. Since this was not the first request, the next number in sequence was index = 2. Additionally, message had a different value, which was "hello." Since this string contained no spaces, it didn't need to be further modified in the addMessage method.
+
+## Part 2:
+
+## Part 3:

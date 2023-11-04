@@ -11,11 +11,12 @@ The main method is initially called, which calls the ```Handler``` class, contai
 In this request, the main method, ```handleRequest```, and ```addMessage``` methods were all called. The relevant arguments were the ```url``` in ```handleRequest``` and ```message``` in ```addMessage```. The ```index``` is a relevant field of the class, which was modified in this example and was incremented by 1 twice. Like the first example, the value of ```index``` was incremented to 2 at the end of the first request. However, since there were multiple requests, ```index``` became 3 after the second request. Additionally, ```message``` is still equal to ```parts[1]```, but has multiple values as the code runs since two queries are inputted in this example. At first, the value of ```message``` is "hello", and then it's "how are you". Since the first input "hello" contained no spaces, it didn't need to be further modified in the ```addMessage``` method. The List ```messages``` also expands in this example because of the two inputs. It stores both formatted messages "hello" and "how are you" within a list.
 
 ## Part 2:
-![Image](labreport2-2.1.png)
+screenshot of the path to the private key for my SSH key:
+![Image](privateKeySSH.png)
 
-The private key for my SSH key for logging into ieng6 is /Users/gayaneamroyan/.ssh/id_rsa and the path to the public key is /Users/gayaneamroyan/.ssh/id_rsa.pub
+![Image](publicKeySSH.png)
 
-![Image](labreport2-2.2.png)
+![Image](
 
 ## Part 3:
 In the past few weeks of lab, I've learned how to use and work with many new commands in the terminal. One topic that really stood out to me was writing and running the servers since doing that was completely new to me. Running the website on the ieng6 server was very interesting. Also, before these few weeks, I had no idea what was stored in URLs or how they were formatted. 

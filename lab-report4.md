@@ -8,7 +8,7 @@ Keys pressed: ```<s><s><h><space><c><s><1><5><l><f><a><2><3><d><r><@><i><e><n><g
 ## Step 5:
 ![Image](labreport4-ss2.png)
 
-Keys pressed: ```<g><i><t><space><c><l><o><n><e><space><command><V><enter>```. Typed "git clone" and had the link to the GitHub repository copied to my clipboard, so I used ```<command><V>``` to paste it into the terminal. This cloned the repository into the ieng6 server and made a directory called ```lab7```.
+Keys pressed: ```<g><i><t><space><c><l><o><n><e><space><command><V><enter>```. I typed "git clone" and had the ssh url to the GitHub repository copied to my clipboard, so I used ```<command><V>``` to paste it into the terminal. This cloned the repository into the ieng6 server and made a directory called ```lab7```.
 
 ## Step 6:
 ![Image](labreport4-ss3.png)

@@ -27,7 +27,7 @@ Keys pressed: ```<ctrl><d><ctrl><d><up><up><up><up><up><up><right><right><right>
 ## Step 8:
 ![Image](labreport4-ss5.png)
 
-Keys pressed: ```<up><up><enter>```. The ```bash test.sh``` command was 2 up in the search history, so I used the up arrow to access it. they now succeed and the file runs properly.
+Keys pressed: ```<up><up><enter>```. The ```bash test.sh``` command was 2 up in the search history, so I used the up arrow to access it. They now succeed and the file runs properly.
 
 ## Step 9:
 ![Image](labreport4-ss6.2.png)

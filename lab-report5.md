@@ -10,7 +10,6 @@
 ```
 public class LabReport5 {
 
-    // Intentional bug: Incorrect character swapping
     public static String reverseString(String input) {
         if (input == null || input.isEmpty()) {
             return "Input string is null or empty.";

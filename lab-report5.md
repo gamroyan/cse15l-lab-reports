@@ -43,20 +43,22 @@ public class TestLabReport5 {
     }
 }
 ```
-![Image]() (ss of output when running test case
+![Image](labreport5-ss1.png)
 
 The problem is that when I use ```reverseString```, the output isn't what I expect. It seems like the characters aren't being swapped correctly because the output contains the same set of characters as the input but in a very weird order. I also noticed that the method works perfectly fine when the input string is null or empty, so I suspect there might be a bug in the character-swapping part of my code. 
 
 Just to give you some background, I implemented the reversal by swapping each character in the string with the last character in the array. I thought this would be a straightforward way to reverse the string. Can anyone help me figure out what's going wrong here?
 
-### Response from TA
-Hey there! Thanks for providing the details. Your approach to swapping characters is interesting.
+### Response from TA:
+Hey there! Your approach to swapping characters is interesting.
 
 To narrow down the issue, you could try running your ```reverseString``` method with a simple test case (could be the same one you provided), and print the intermediate results within the loop. By doing so, you can observe the changes in the ```charArray``` at each iteration, which should help us see how the characters are being swapped at each step. For instance, you can add the following lines inside your loop: ``` System.out.println("Iteration " + i + ": " + new String(charArray)); ```.
 
-### Student's Second Attempt
+### Student's Second Attempt:
 
-### The Setup
+
+### The Setup:
+
 
 ## Part 2 - Reflection
 Throughout the second half of this quarter, I learned how versatile it is to work from the terminal. One part of the class that really stood out to me was how we could access, manipulate/edit, and even push files to GitHub directly from the command line. Previously, I hadn't known that it was possible to navigate GitHub without relying on a graphical interface. Also, working with Vim to edit files was  cool to learn about. Logging into the ieng6 computer remotely was definitely a highlight of the quarter since I had never done something like that before. I can see how the skills we learned in this lab will be very useful in any future software-related endeavors.

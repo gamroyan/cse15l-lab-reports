@@ -164,7 +164,13 @@ public class TestLabReport5 {
 
 **The full command line (or lines) you ran to trigger the bug**
 
+Used the command ```bash test.sh``` in the terminal to run the files that triggered the bug (also shown in both screenshots previously)
+
 **A description of what to edit to fix the bug**
+
+In ```LabReport5.java``` adjusted the loop condition to ```i < charArray.length / 2``` rather than ```i < charArray.length```. Also adjusted the swapping process. Changed ```charArray[charArray.length - 1]``` to ```charArray[charArray.length - 1 - i]```.
+
+In LabReport5.java, I refined the loop condition by changing it to ```i < charArray.length / 2``` instead of ```i < charArray.length```. This adjustment prevents redundant swaps and ensures that each character is swapped only once. Additionally, I corrected the swapping process by replacing ```charArray[charArray.length - 1]``` with ```charArray[charArray.length - 1 - i]```, addressing the bug where characters were incorrectly swapped with the last one.
 
 ## Part 2 - Reflection
 Throughout the second half of this quarter, I learned how versatile it is to work from the terminal. One part of the class that stood out to me was how we could access, manipulate/edit, and even push files to GitHub directly from the command line. Previously, I hadn't known that it was possible to navigate GitHub without relying on a graphical interface. Also, working with Vim to edit files was cool to learn about. Logging into the ieng6 computer remotely was definitely a highlight of the quarter since I had never done something like that before. I can see how the skills we learned in this lab will be very useful in any future software-related endeavors.
